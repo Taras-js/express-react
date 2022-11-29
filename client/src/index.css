@@ -1,0 +1,111 @@
+html,
+body,
+#root {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+    height: 28px;
+    margin: 16px 0 16px 22px;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+.site-layout-header {
+    background: #000;
+    text-align: right;
+    padding: 0 16px;
+}
+
+.site-layout-header a {
+    color: #fff;
+}
+
+.site-layout-header-spacing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-search-input {
+    border-radius: 8px;
+    border: 0;
+    color: rgba(255, 255, 255, 0.4);
+    background: #1a1c1f;
+}
+
+.header-search-input > input {
+    color: rgba(255, 255, 255, 0.4);
+    background: #1a1c1f;
+}
+
+/* make table row cursor pointer if its clicable */
+.clickable-row tbody tr {
+    cursor: pointer;
+}
+
+/* custom container that works with Row and Col front antd */
+
+.custom-container-multiple-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.custom-container-multiple-wrapper > .custom-container{
+    flex: 1;
+}
+
+.custom-container {
+    padding: 8px 16px;
+    background: #fff;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.custom-container--mb {
+    margin-bottom: 16px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* ant design override */
+
+.ant-layout {
+  background: #FFF;
+}
+
+.ant-btn, .ant-tag {
+    border-radius: 8px;
+}
+
+.ant-tabs-tab-btn {
+    font-size: 16px;
+}
+
+.ant-table-container {
+    overflow: scroll;
+}
+
+.ant-card {
+    border-radius: 8px;
+}
+
+.ant-input, .ant-select-selector {
+    border-radius: 6px !important;
+}
+
+.red-text.ant-progress .ant-progress-text {
+    color: red;
+}

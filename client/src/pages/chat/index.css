@@ -1,0 +1,83 @@
+.ant-tabs-left>.ant-tabs-nav .ant-tabs-tab {
+  padding-left: 0;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 14px;
+  padding-left: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+.new-channel-header {
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+  margin-bottom: 12px;
+}
+
+.chat-header {
+  padding: 0 0 11px;
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+  margin-left: -24px;
+  padding-left: 24px;
+}
+
+.chat-header .ant-page-header-heading {
+  flex-wrap: nowrap;
+}
+.chat-header .ant-page-header-heading-title {
+  line-height: 23px;
+}
+
+.chat-header .ant-page-header-heading-title .ant-typography {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 32px;
+}
+
+.chat-header .ant-page-header-heading-title .ant-typography-edit {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+}
+
+.chat-header .ant-typography p,
+.chat-header div.ant-typography {
+  margin-bottom: 0;
+}
+.chat-header .ant-page-header-heading-extra {
+  margin: -1px 0 0;
+}
+
+.chat-tabs .ant-tabs-content {
+  position: relative;
+}
+
+.chat-tab-channel {
+  overflow: hidden;
+  max-width: 135px;
+  text-overflow: ellipsis;
+}
+
+.tab-badges {
+  transition: width 0.2s ease-in-out;
+}
+
+.tab-badges.active {
+  width: 26px;
+}
+.tab-badges .ant-badge {
+  position: absolute;
+  top: -2px;
+  left: 10px;
+}
+
+.tab-badges .ant-badge-dot {
+  transform: none;
+}
+
+.tab-badges .ant-badge-count {
+  margin: -8px 0 0 -5px;
+}
